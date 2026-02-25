@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-dark-blue: rgba(0, 26, 51, 1);
+    --primary-sky-blue: rgba(20, 182, 228, 1);
+    --primary-dark-gray: rgba(74, 88, 100, 1);
+    --secondary-blue: rgba(1, 76, 147, 1);
+    --secondary-sky-blue: rgb(0, 214, 238);
+    --secondary-dark-blue: rgba(12, 47, 80, 1);
+    --primary-light-green: rgba(15, 165, 39, 1);
+    --primary-blue: rgba(2, 19, 35, 1);
+    --secondary-sky-blue: rgb(186, 196, 252);
+    --secondary-light-gray: rgb(166, 166, 166, 1);
+    --tertiary-light-gray: rgba(139, 139, 139, 1);
+    --tertiary-gray: rgba(185, 178, 178, 1);
+    --primary-white: rgba(255, 255, 255, 1);
+    --light-white: rgba(255, 255, 255, 0.5);
+    --transparent-white: rgba(255, 255, 255, 0);
+    --secondary-white: rgb(212, 211, 211);
+    --dark-gray: rgba(100, 100, 100, 1);
+    --primary-light-sky: rgb(227, 241, 255);
+    --tertiary-white: rgba(253, 253, 253, 1);
+    --secondary-light-pink: rgb(244, 232, 255);
+    --tertiary-blue: rgba(11, 47, 85, 1);
+    --light-sky: rgba(36, 165, 220, 1);
+    --primary-offwhite: rgba(203, 203, 203, 0.6);
+    --secondary-offwhite: rgba(193, 193, 193, 1);
+    --dark-sky: rgba(134, 195, 255, 1);
+}
+
+.bg-primary-color {
+    background-color: var(--primary-dark-blue);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(to bottom, var(--tertiary-blue) 0%, var(--primary-blue) 20%);
+}
+
+.light-blue-bg {
+    background-image: linear-gradient(to right, rgba(6, 205, 227, 1) 0%, rgba(13, 157, 197, 1) 87%);
+    opacity: 0.9;
+    transition: 0.3s;
+}
+.light-blue-bg:hover {
+    opacity: 1;
+}

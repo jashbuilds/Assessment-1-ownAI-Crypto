@@ -1,0 +1,76 @@
+/* The actual timeline (the vertical ruler) */
+.main .section-three .main-timeline-5 {
+    position: relative;
+    max-width: 100%;
+}
+
+/* card bg-color */
+.main .section-three .main-timeline-5 .card {
+    background-color: var(--secondary-dark-blue) !important;
+}
+
+.main .section-three .main-timeline-5 .card .card-para{
+    color: var(--tertiary-gray);
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.main .section-three .main-timeline-5::after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    background-color: var(--light-sky);
+    top: -40px;
+    bottom: 0;
+    left: auto;
+    margin-left: -3px;
+    border-radius: 50px;
+}
+
+/* Container around content */
+.main .section-three .main-timeline-5 .timeline-5 {
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+/* The squares on the timeline */
+.main .section-three .main-timeline-5 .timeline-5::after {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 1px;
+    background-color: var(--primary-white);
+    top: 52px;
+    z-index: 1;
+}
+
+/* Place the container to the right */
+.main .section-three .main-timeline-5 .right-5 {
+    padding: 0px 0px 60px 29px;
+    left: auto;
+}
+
+/* Add arrows to the right container (pointing left) */
+.main .section-three .main-timeline-5 .right-5::before {
+    content: " ";
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    left: 20px;
+    border: medium solid var(--primary-white);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--secondary-dark-blue) transparent transparent;
+}
+
+/* Fix the square for containers on the right side */
+.main .section-three .main-timeline-5 .right-5::after {
+    left: -8px;
+}
+
+@media (max-width: 991px) {
+    .main .section-three .main-timeline-5 {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,190 @@
+.roadmap-page-container {
+    background-color: var(--primary-blue);
+    background-image: url('../Images/location-img.png'), url('../Images/Oval-Base-3.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 10%, 0% 38%;
+}
+
+.main .section-one {
+    margin-top: 145px;
+}
+
+
+.main .section-one .section-one-row {
+    margin: 100px auto;
+}
+
+.main .section-one .section-one-row .section-one-col-one .col-div-one {
+    margin-top: 50px;
+}
+
+.main .section-one .section-one-row .section-one-col-one .section-one-heading {
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 0px;
+}
+
+.main .section-one .section-one-row .section-one-col-one .section-one-para {
+    color: var(--tertiary-white);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 25px auto;
+}
+
+.main .section-one .section-one-row .section-one-col-one .learn-more-btn {
+    max-width: 355px;
+    height: 72px;
+    padding: 10px 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary-sky-blue);
+    color: var(--primary-white);
+    opacity: 0.8;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+.main .section-one .section-one-row .section-one-col-one .learn-more-btn:hover {
+    opacity: 1;
+}
+
+.main .section-one .section-one-row .section-one-col-two .col-two-img-container .col-two-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.main .section-two {
+    margin-top: 160px;
+}
+
+
+.main .section-two .section-two-row .section-two-div .section-two-heading {
+    font-size: 36px;
+}
+
+.main .section-two .section-two-row .section-two-div .section-two-subheading {
+    color: var(--dark-gray);
+    margin: 16px auto;
+    font-size: 28px;
+}
+
+
+.main .section-two .section-two-row .section-two-div .section-two-img {
+    margin: auto -100px;
+    width: 390px;
+}
+
+.main .section-two .section-two-row .section-two-div .section-two-img .gradient-horizontal-line {
+    width: 100%;
+}
+
+.main .section-two .section-two-row .section-two-div .roadmap-btn {
+    font-size: 36px;
+    padding: 10px 30px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.main .section-two .section-two-row .section-two-div .roadmap-btn:hover {
+    opacity: 1;
+}
+
+.main .section-two .section-two-row .section-two-div {
+    margin: auto 100px;
+    max-width: 400px;
+}
+
+
+.main .section-three {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* media queries - roadmap */
+
+@media only screen and (max-width: 1200px) {
+    .main .section-one .section-one-row .section-one-col-one .section-one-heading {
+        font-size: 30px;
+        line-height: 47px;
+    }
+
+    .main .section-one .section-one-row .section-one-col-one .section-one-para {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .main .section-one .section-one-row .section-one-col-one .learn-more-btn {
+        max-width: 300px;
+        font-size: 20px;
+        padding: 10px 75px;
+    }
+
+    .main .section-two .section-two-row .section-two-div {
+        margin: auto 100px;
+    }
+
+    .roadmap-page-container {
+        background-position: 0% 10%, 0% 33%;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .main .section-one .section-one-row .section-one-col-two .col-two-img-container {
+        margin: 70px auto;
+        display: flex;
+    }
+
+    .main .section-one .section-one-row .section-one-col-one .col-div-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .main .section-two .section-two-row .section-two-div .roadmap-btn {
+        font-size: 20px;
+    }
+
+    .main .section-one .section-one-row .section-one-col-two .col-two-img-container .col-two-img {
+        max-width: 100%;
+    }
+
+    .main .section-two .section-two-row .section-two-div {
+        margin: auto 115px;
+    }
+
+}
+
+@media only screen and (max-width: 667px) {
+
+    .main .section-three {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .roadmap-page-container {
+        background-image: none;
+    }
+
+    .main .section-two .section-two-row .section-two-div {
+        margin: 0px;
+    }
+
+    .main .section-one {
+        margin-top: -70px;
+    }
+
+    .roadmap-page-container {
+        background-image: none;
+    }
+}
